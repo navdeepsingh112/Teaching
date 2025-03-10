@@ -1,4 +1,2 @@
-1, 6):
-#     for j in range (1, i+1):
-#         print(j , end=' ')
-#     print()
+
+# print(string[n-1:(n-1-n//2):-1])
