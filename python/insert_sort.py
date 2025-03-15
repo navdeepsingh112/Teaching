@@ -13,6 +13,6 @@ def insertionSort(arr):
         arr[j+1] = key  # Insert the key in the correct position
  
 # Sorting the array [12, 11, 13, 5, 6] using insertionSort
-arr = [12, 11, 13, 5, 6]
+arr = [1,2]
 insertionSort(arr)
 print(arr)
