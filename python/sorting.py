@@ -10,9 +10,9 @@
 #            list[index2] = list[index2+1]
 #            list[index2+1] = temp
 # print(list)
-a= 1
-b=2
-a = a+b
+a= 1 #assign the value for a
+b=2  #assign the value for b
+a = a+b # Trying to swap the value
 b = a - b #a
 a= a-b #b
 print(a,b)
