@@ -1,5 +1,5 @@
 number = input("Enter Number: ") #string is a list of char 
-sum = 10
+sum = 11
 
 # range(0,3) = [0,1,2]
 for digit in number:
