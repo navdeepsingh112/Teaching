@@ -1,1 +1,5 @@
 adding text file 
+
+git remote set-url origin https://github.com/navdeepsingh112/Teaching.git 
+
+git remote -v 
