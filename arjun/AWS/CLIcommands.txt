@@ -1,0 +1,37 @@
+#mounting S3 storage. 
+
+ssh -i "launch.pem" ec2-user@ec2-54-87-62-199.compute-1.amazonaws.com
+
+aws configure  #add access key and secret key 
+
+
+aws s3 ls #to get s3 bucket 
+
+aws s3 ks s3://arjunmagoobucket02/ 
+
+mkdir s3mount
+
+wget https://s3.amazonaws.com/mountpoint-s3-release/latest/x86_64/mount-s3.rpm
+
+sudo yum install mount-s3.rpm 
+
+mount-s3 arjunmagoobucket02 s3mount/
+
+#### mount EBS #####
+
+df -h  # Disk free information 
+
+lsblk #list of devices attached to get unmounted disk 
+
+sudo mkfs.xfs /dev/xvdb   #make file system to store files in EBS check the correct device path 
+
+sudo mkdir myvolume # name of directory 
+
+sudo mount /dev/xvdb myvolume #mount EBS storage. 
+
+
+
+
+
+
+
