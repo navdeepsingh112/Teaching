@@ -16,3 +16,4 @@ nos = [1,2,3,4,5,6]
 result = reduce(summ , nos)
 print(result)
 #reduces the list to a single object
+#new add
