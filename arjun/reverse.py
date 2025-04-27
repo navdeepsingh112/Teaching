@@ -23,4 +23,3 @@ Reverse = Name[: : -1]
 print(" The Reverse of the input is :   " , Reverse)
 
 
-
