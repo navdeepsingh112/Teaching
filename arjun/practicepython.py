@@ -110,25 +110,36 @@
 
 #palindrome 
 
-string = "abcba"
+# string = "abcba"
 
-string=string.casefold() 
+# string=string.casefold() 
 
-#for case senstive string 
+# #for case senstive string 
 
-#reverse the string
+# #reverse the string
 
-rev_string=reversed(string) 
+# rev_string=reversed(string) 
 
-print(list(rev_string))
+# print(list(rev_string))
  
-if list(string) == list(rev_string):
+# if list(string) == list(rev_string):
     
-    print("Palindrome")
+#     print("Palindrome")
 
-else :
+# else :
     
-    print("not a palidrome")
+#     print("not a palidrome")
     
+    
+# String to be sorted
+    
+string_sort = "Python is Easy to learn just need more practice"
+    
+string_sorted = string_sort.split()
+    
+print(string_sorted)
     
 
+for string in string_sorted :
+    
+    print (string)
