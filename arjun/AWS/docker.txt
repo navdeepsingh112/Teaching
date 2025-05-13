@@ -1,0 +1,62 @@
+Microservices  : Fine grain services ( single app is broken into smaller units  , looslely coupled )
+
+Monolithic services : application built as single unified unit 
+
+Converstion from Monolithic Services to Microservices 
+
+Microsoervices :
+
+Pros :
+
+scalable 
+faster deployement 
+single unit scalable
+Fault isolation
+easy Mainitainence 
+Developer independence 
+
+Cons:
+
+MicroComplexity
+Latencey
+deployement and versioning challenges
+increased security 
+higher upfront Cost 
+
+
+
+Monolithic :
+
+Pros:
+
+Simple
+fast deployement/developement 
+easy testing /debugging
+
+Cons:
+Non scalable 
+complex Mainitainence
+difficult to adopt new tech
+increase risk of failure 
+
+
+CNCF : Cloud Native Computing Foundation 
+
+The apprrocah of buidling and runining application which shift from Monolithic to more modular distributed and scalable solutions. 
+
+Containerization 
+
+CI CD pipelines
+
+Orchestrations and app defnition 
+
+Analusis and obseve
+
+Service proxy 
+
+#Download docker desktop 
+
+
+
+
+
